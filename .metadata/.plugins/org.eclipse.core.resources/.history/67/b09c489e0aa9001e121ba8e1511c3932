@@ -1,0 +1,26 @@
+package b_Chapter01;
+
+// 자바 형 변환(타입 변환)
+// : 하나의 타입을 다른 타입으로 바꾸는 것
+
+
+// 자료형의 크기에 따른 형 변환 규칙, 
+// byte(1) > short(2) > int(4) > long(8) > double(8)
+// (바이트 크기가 다르기 때문에 4바이트 -> 2바이트 불가능)
+
+// 2. 강제 형 변환 or 명시적 형 변환 
+// : 크기가 작은 자료형으로의 변환 (큰 공간 - > 작은 공간)
+
+public class C_TypeConversion {
+
+	public static void main(String[] args) {		
+// 1. 자동 형 변환 or 묵시적 형 변환(작은 공간 -> 큰 공간)
+// : 크기가 큰 자료형으로의 변환
+         byte small_bowl = 10; // 작은 그릇
+         int big_ball = 10000; // 큰 그릇
+//       작은 범위의 타입을 큰 타입으로 넣을 때는
+//       자동으로 형 변환을 컴파일러가 수행
+         big_bowl = small_bowl;
+	}
+
+}
