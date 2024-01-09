@@ -14,14 +14,29 @@ public class B_Array02 {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		// 3. 무한루프 생성: while문의 조건이 항상 true
+		int guess;
 		
-		    // 사용자의 입력 값이 난수와 같다면
-		    // '정답입니다' 출력
-		    // 입력 값이 난수보다 작다면
-		    // : 'UP' 출력
-		    // 입력 값이 난수보다 크다면
-		    // : 'DOWN' 출력
+		// 3. 무한루프 생성: while문의 조건이 항상 true
+		while (true) {
+			System.out.println("숫자를 입력하세요. (1 ~ 100)");
+			guess = sc.nextInt();
+			
+			// 사용자의 입력 값이 난수와 같다면
+			if(secretNumber == guess) {				
+				// '정답입니다' 출력
+				System.out.println("정답입니다.");
+				break;
+				// 입력 값이 난수보다 작다면
+			} else if (guess < secretNumber) {
+				// : 'UP' 출력
+				System.out.println("UP");
+				// 입력 값이 난수보다 크다면
+			} else if (guess > secretNumber) {
+				// : 'DOWN' 출력
+				System.out.println("DOWN");
+			}
+			
+		}
 
 	}
 }
