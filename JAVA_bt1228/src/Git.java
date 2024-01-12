@@ -84,6 +84,7 @@ public class Git {
 		// >> 연동 전 해당 리포지토리의 파일을 받아올 폴더에
 		// : 리포지토리 초기화(init) 실시: git init
 		
+		
 		// >> branch 변경(main)
 		// : git branch -M main
 

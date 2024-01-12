@@ -6,4 +6,7 @@
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.Random"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="e_Chapter04.FootballPlayer"/>
+    <fullyQualifiedTypeName name="javax.swing.plaf.basic.BasicTreeUI.TreeIncrementAction"/>
+    <fullyQualifiedTypeName name="f_Chapter05.Counter"/>
 </qualifiedTypeNameHistroy>

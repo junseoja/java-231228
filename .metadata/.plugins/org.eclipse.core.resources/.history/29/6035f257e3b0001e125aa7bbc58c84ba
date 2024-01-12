@@ -1,0 +1,12 @@
+package g_Chaper06;
+
+// 인스턴스 변수, 정적(클래스) 변수
+
+// 예) 카드 게임
+// 
+public class ClassPractice {
+	public static void main(String[] args) {
+		
+	}
+
+}

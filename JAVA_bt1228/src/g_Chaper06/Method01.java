@@ -53,5 +53,4 @@ public class Method01 {
 		int result = calc.addNumber(30, 40); // addNumbers 메서드 호출
         System.out.println(result);
 	}
-
 }
