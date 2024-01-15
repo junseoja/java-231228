@@ -9,4 +9,5 @@
     <fullyQualifiedTypeName name="e_Chapter04.FootballPlayer"/>
     <fullyQualifiedTypeName name="javax.swing.plaf.basic.BasicTreeUI.TreeIncrementAction"/>
     <fullyQualifiedTypeName name="f_Chapter05.Counter"/>
+    <fullyQualifiedTypeName name="java.nio.file.spi.FileSystemProvider"/>
 </qualifiedTypeNameHistroy>
