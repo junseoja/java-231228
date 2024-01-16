@@ -10,4 +10,8 @@
     <fullyQualifiedTypeName name="javax.swing.plaf.basic.BasicTreeUI.TreeIncrementAction"/>
     <fullyQualifiedTypeName name="f_Chapter05.Counter"/>
     <fullyQualifiedTypeName name="java.nio.file.spi.FileSystemProvider"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="h_Chapter07.Overriding"/>
+    <fullyQualifiedTypeName name="parentPackage.ParentClass"/>
+    <fullyQualifiedTypeName name="i_Chapter08.ProtectedClass"/>
 </qualifiedTypeNameHistroy>
