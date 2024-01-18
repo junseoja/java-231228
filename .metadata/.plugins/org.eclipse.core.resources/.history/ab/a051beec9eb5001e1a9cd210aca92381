@@ -1,0 +1,10 @@
+package k_Chapter10;
+
+//! 인터페이스 
+// : 객체가 어떤 방식으로 동작해야 하는지를 정의하는 추상 타입
+
+public class B_Interface {
+	public static void main(String[] args) {
+	}
+
+}
