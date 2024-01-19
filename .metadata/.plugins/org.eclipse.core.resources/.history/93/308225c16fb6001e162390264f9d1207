@@ -1,0 +1,7 @@
+package l_Chapter11;
+
+// Anonymous
+public class E_AnonyClass {
+	public static void main(String[] args) {
+	}
+}

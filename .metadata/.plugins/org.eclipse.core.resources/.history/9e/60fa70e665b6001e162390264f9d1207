@@ -1,0 +1,12 @@
+package l_Chapter11;
+
+// 자바 비정적 내부 클래스 (내부 클래스, 인스턴스 클래스)
+// : 멤버 변수 선어부에 위치
+// : static 키워드가 X
+// : 외부 클래스의 객체를 먼저 생성한 후 내부 클래스 객체 생성이 가능
+
+public class B_InstanceClass {
+	public static void main(String[] args) {
+	}
+
+}
