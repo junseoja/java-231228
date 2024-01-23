@@ -1,3 +1,4 @@
+
 package m_Chapter12;
 
 //! java.lang
@@ -50,25 +51,48 @@ public class E_Java_Lang {
 	public static void main(String[] args) {
 		MyClass myClass = new MyClass(123, "장준서");
 		System.out.println(myClass.toString());
-	
+			
 		String name = "장준서";
 		System.out.println(name);
-		
+			
 		String nickname = name;
 		String nickname2 = "장준서";
 		System.out.println(nickname); 
-		
+			
 		System.out.println(name.equals(nickname)); // true
 		System.out.println(name.equals(nickname2)); // true
-		 
+		 	
 		System.out.println(name == nickname); // true
-		
+			
 		double result1 = Math.abs(-3.5);
+		
 		System.out.println(result1); // 절대값인 3.5
 		System.out.println(Math.max(12312453, 1242113212)); // 큰 수 추출
 		System.out.println(Math.random() * 10); // 0 ~ 1 사이 수
 		System.out.println(Math.pow(2, 4)); // 16.0
-		
+			
 		System.out.println("String 클래스");
-	}
+		
+		String hello = "Hello, World!";
+		
+		//길이: 13
+		// >> 문자열의 길이에는 문자 뿐만 아니라 기호와 띄어쓰기도 포함
+		int length = hello.length(); // 길이: 13
+		
+		// equals 메서드는 boolean 값을 반환
+		boolean isEqual = hello.equals("Hello, World!"); // true
+		System.out.println(isEqual);
+		
+		// substring(시작번호, 끝번호);
+		// 시작번호는 포함(이상)
+		// 끝번호는 포함하지 않음(미만)
+		String sub = hello.substring(7, 12); // "World"
+		System.out.println(sub);
+		
+		char ch = hello.charAt(1); // 'e'
+		System.out.println(ch);
+		
+		int index = hello.indexOf("World"); // 7
+		System.out.println(index);
+	}		
 }

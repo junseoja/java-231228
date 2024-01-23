@@ -5,7 +5,6 @@
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.Random"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="e_Chapter04.FootballPlayer"/>
     <fullyQualifiedTypeName name="javax.swing.plaf.basic.BasicTreeUI.TreeIncrementAction"/>
     <fullyQualifiedTypeName name="f_Chapter05.Counter"/>
@@ -22,4 +21,12 @@
     <fullyQualifiedTypeName name="l_Chapter11.City.CityPlan"/>
     <fullyQualifiedTypeName name="l_Chapter11.Animal.Heart"/>
     <fullyQualifiedTypeName name="l_Chapter11.Car.Engine"/>
+    <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+    <fullyQualifiedTypeName name="java.io.FileReader"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="m_Chapter12.B_Exception"/>
+    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
+    <fullyQualifiedTypeName name="m_Chapter12.CustomException"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
 </qualifiedTypeNameHistroy>
