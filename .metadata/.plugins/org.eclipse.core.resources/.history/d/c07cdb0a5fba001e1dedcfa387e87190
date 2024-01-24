@@ -1,0 +1,21 @@
+package O_Chapter14.view;
+
+import java.util.Scanner;
+
+import O_Chapter14.controller.BookController;
+
+public class BookView {
+	// 인스턴스 변수
+	private Scanner sc;
+	// BookController 객체를 저장하기 위한 변수
+	private BookController bookController;
+	
+	// 생성자
+	public BookView() {
+		this.sc = new Scanner(System.in);
+		bookController = new BookController();
+		
+	}
+	
+	
+}
