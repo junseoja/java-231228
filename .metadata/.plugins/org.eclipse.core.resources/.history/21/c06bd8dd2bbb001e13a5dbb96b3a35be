@@ -1,0 +1,21 @@
+package q_Chapter16.view;
+
+import java.util.Scanner;
+
+public class OrderView {
+	private Scanner sc = new Scanner(System.in);
+	
+	// 메뉴 선택을 사용자에게 요청하는 메서드
+	public String getUserChoice() {
+		System.out.println("\nSelect an option");
+		System.out.println("1. Pizza");
+		System.out.println("2. Pasta");
+		System.out.println("3. Juice");
+		System.out.println("4. Complete Order");
+		System.out.print("Your Choice: ");
+		return sc.nextLine();
+	}
+	
+	// 주문 수량을 사용자에게 요청하는 메서드
+	
+}

@@ -32,11 +32,11 @@ public class BookView {
 		System.out.println("메뉴를 선택해주세요 : ");
 		
 		// 사용자로부터 선택을 입력받기
-		int choice = sc.nextInt();
+		int choice1 = sc.nextInt();
 		sc.nextLine(); // 숫자 입력 후 엔터 키 처리
 		
 		// 사용자의 선택에 따라 적절한 메서드를 호출
-		switch(choice) {
+		switch(choice1) {
 		case 1:
 			addBookView(); 
 			break;

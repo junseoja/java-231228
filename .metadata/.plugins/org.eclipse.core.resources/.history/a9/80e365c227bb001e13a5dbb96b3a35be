@@ -1,0 +1,8 @@
+package q_Chapter16.model;
+
+// 음식점 메뉴 주문 시스템
+// - 사용자가 메뉴를 선택, 수량을 입력
+// - 총 가격을 계산
+public class OrderModel {
+
+}

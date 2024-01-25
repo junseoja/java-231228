@@ -1,0 +1,6 @@
+package q_Chapter16.model;
+
+// 음식점 메뉴 주문 시스템
+public class OrderModel {
+
+}

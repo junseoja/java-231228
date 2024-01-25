@@ -1,0 +1,12 @@
+package p_Chapter15;
+
+public class B_IO02 {
+
+	public static void main(String[] args) {
+		//! 문자(char) 기반 스트림
+		// : 유니코드 문자 데이터를 위한 IO 스트림
+		
+		// - FileReader: 문자를 읽어들이는 클래스
+		// - FileWriter: 문자를 쓰는 클래스
+	}
+}
